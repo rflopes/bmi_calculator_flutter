@@ -1,20 +1,13 @@
 import 'package:flutter/material.dart';
 
 class AppColors {
-  static Color get white => Color(0xFFF9F9F9);
-  static Color get black => Color(0xFF3B3B4F);
-  static Color get red => Color(0xFFF48C8D);
-  static Color get green => Color(0xFFC1E999);
-  static Color get blue => Color(0xFF87B1E3);
-  static Color get yellow => Color(0xFFFAE488);
-  static Color get darkGrey => Color(0xFF96ACA1);
-  static Color get lightGrey => Color(0xFFD7DBDB);
-}
-
-class ResultColors {
-  static List<Color> get idle => [AppColors.white, AppColors.black];
-  static List<Color> get underweight => [AppColors.blue, AppColors.white];
-  static List<Color> get normal => [AppColors.green, AppColors.black];
-  static List<Color> get overweight => [AppColors.yellow, AppColors.black];
-  static List<Color> get obsese => [AppColors.red, AppColors.white];
+  static const Color primary = Color(0xFF0A0E21);
+  static const Color cardColor = Color(0xFF1D1E33);
+  static const Color inactiveGenderCardColor = Color(0xFF111328);
+  static const Color red = Color(0xFFEB1555);
+  static const Color green = Color(0xFF24D876);
+  static const Color blue = Color(0xFF13616D);
+  static const Color yellow = Color(0xFFF8D825);
+  static const Color lightGrey = Color(0xFF8D8E98);
+  static const Color darkGrey = Color(0xFF4C4F5E);
 }
